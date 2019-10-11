@@ -1,0 +1,108 @@
+body {
+    background-image: url("./assets/images/herringbone.png");
+    background-position: left top;
+   }
+
+.clearfix:after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+h1 {
+    font-size: 25px;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #ffffff
+    }
+/*font of main content body*/
+h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    }
+
+.about-title {
+    background-color: red;
+
+    }
+
+.bio-pic {
+    background-color: blue;
+    }
+
+
+p{
+    color: #777777;
+    }
+/*links*/
+a:link {
+    text-decoration: none;
+    color: #777777;
+  }
+a:visited {
+    color: #777777;
+    }
+/*header*/
+
+section {
+    background: #ffffff;
+    margin-bottom: 20px;
+    border-bottom: 2px solid rgb(201, 201, 201);
+    text-align: center;
+    height: 70px;
+    }
+
+.header {
+    width: 100%;
+
+    }
+.left {
+    width: 960px;
+    margin: 0 auto;
+    }
+.middle1 {
+    background: #4aaaa5;
+    float: left;
+    width: 30%;
+
+    }
+.middle2 {
+    float: left;
+    width: 30%
+    }
+.right {
+    float: right;
+    width: 20%;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    }
+/*middle content*/
+.full {
+    width: 960px;
+    height: auto;
+    margin: 0 auto;
+}
+.about-aside {
+    background-color: blue;
+    width: 960px;
+    margin: 0 auto;
+    }
+.aside {
+    float: left;
+    border: 1px;
+    
+}
+.content {
+    float: left;
+    width: 50%;
+}
+
+
+
+footer {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.842);
+    padding-top: 8px, #4aaaa5;
+    background-color: #777777;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    }
