@@ -8,8 +8,8 @@ h2 {
 font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
-#body {
-    background-image: url("assets\images\herringbone.png");
+body {
+    background-image: url("assets/images/herringbone.png");
     background-position: left top;
    }
 
