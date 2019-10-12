@@ -202,7 +202,8 @@ footer {
     color: rgba(255, 255, 255, 0.842);
     background-color: #666666;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    position: absolute;
+    position: fixed;
+    bottom: 0;
     width: 100%;
     border-top: 8px solid #4aaaa5;
     margin-top: 10px;
