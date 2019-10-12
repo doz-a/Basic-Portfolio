@@ -1,3 +1,10 @@
+/*font of main content body*/
+.h2 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    width: 100%;
+    color: #4aaaa5;
+}
+/*font of body*/
 body {
     color: #777777;
     background-image: url("./assets/images/herringbone.png");
@@ -16,11 +23,6 @@ h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: #ffffff
     }
-/*font of main content body*/
-h2 {
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    width: 100%;
-}
 
 p{
     color: #777777;
@@ -75,6 +77,15 @@ section {
     border: solid 1px #dddddd;
     background-color: #ffffff
 }
+
+.main2 {
+    width: 960px;
+    height: 610px;
+    margin: 0 auto;
+    border: solid 1px #dddddd;
+    background-color: #ffffff
+
+}
 .about-aside {
     background-color: #ffffff;
     width: 280px;
@@ -88,7 +99,7 @@ section {
         background-color: #ffffff;
         width: 100%;
         border-bottom: 2px solid grey;
-        color: #777777;
+        color: #4aaaa5;
         }
     
 .bio-pic {
@@ -108,17 +119,31 @@ section {
     padding: 5px;
 
 }
-
-
+/*portfolio main body content*/
+.portfolio-image {
+    float: left;
+    padding: 10px;
+    margin: 10px;
+    height: 216px;
+    width: 204px;
+}
+.portfolio-words {
+    position: relative;
+    vertical-align: middle;
+    top: -60px;
+    background-color: #4aaaa5;
+    width: 216px;
+    color: #ffffff;
+    font-family: "Georgia', Times, Times New Roman, serif";
+}
 
 footer {
     text-align: center;
     color: rgba(255, 255, 255, 0.842);
-    padding-top: 8px, #4aaaa5;
     background-color: #666666;
     font-family: 'Georgia', Times, Times New Roman, serif;
     position: absolute;
-    bottom: 0;
     width: 100%;
     border-top: 4px solid #4aaaa5;
+    margin-top: 10px;
     }
